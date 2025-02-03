@@ -1,0 +1,158 @@
+1. Develop an application to accept a number and count of digits in it
+2. develop an application to accept a number and reverse it N times and print number after N th time
+3. develop an application to find the sum of N numbers
+4. develop an application to find the sqrt of given number
+5. develop an application to accept the cost price of abook and if N books are sold with 20% loss find 
+the selling price and total sale of same
+
+
+
+6. Develop an application to print the following on the console.
+Name: Sachin Tendulkar
+
+Speciality: "Master Blaster"
+
+Address: H.no:'15-56/253'
+	   Manikinda
+	   Ranga Reddy 'district'
+	   TS-500032
+
+7. develop the following app:
+ ----Welcome to Hotel Ashoka-----
+ 1.Idly(2:00)
+ 2.Dosa(2.50)
+ 3.Puri(2.75)
+ 4.WAda(3.00)
+ 5.Upma(2.25)
+
+ pls pay amt: 11.00
+ --Thank you Visit Again--
+
+ Enter the dish code:3
+ How may plates you want:4
+
+-----ARRAYS------
+
+8. 
+a)develop an application to store N no. of cities into an array and find out vowel count in each city
+b)develop an application to store 6 sub student marks and find out the student passed or not
+	if passed, find he is FIRST or SECOND or THIRD division
+	FIRST  - 80 to 100 percent
+	SECOND - 60-79 percent
+	THIRD  - 40-59 peccent
+	FAILED - lessthan 40
+
+9.
+a) There are some N no. of oil pots with some amount of oil in each pot.And you will fill each pot for 
+5 times with the same amt of oil(say 4 ml or 8 ml) and remove a pot if the amt of oil in a pot equals to
+pouring amt.If a pot is removed, then shift other pots on the left side.
+Finally print the pots available withamts of oil them.
+
+10. Develop an appln to accept 5 students marks (each student has 6 subjects) and store  them into an array and
+ find out how many are passes and howmany failed.
+pass mark is 40% and above
+fail mark is less than 40%
+Note: student should get 40% in each subject to pass (min)
+	pass cny : 3
+	fail cnt : 2
+
+11.develop an appn to perform the following:
+there are 12 pupil standing in the linenwho are having diff heights and find the highest guy standing in which
+ position
+
+12. develop an appn: in an interview where 8 guys attended and scored some marks out of 100 and if any two 
+guys got
+
+13. ---HIDE N SEEK----
+1. hide(N-no of kids hiding in N no. of boxes)
+2. seek(searching for kid in the N boxes)
+3. club(join two kids on to the boxes where they want to hide)
+4.open-up(open all the boxes to see kids)
+5.exit
+NOTE:IMPLEMENT USING ARRAYS
+
+---FUNCTIONS N METHODS---
+
+14. develop an appn to find count of a letter in a city name.
+-create a method that accepts cityName and letterToFind
+-implement logic in that method to count that a letter is appeared in city how many times no. of times.
+for eg: city="Hyderabad" letterToFind=a'
+	   letter 'a' appeared in city 2 times
+
+15. develop an appn to pass cities array and "bad" to a method and find out and print the good cities
+16
+17
+18
+19 develop an application to accept N no.of projects into a method and reverse middle letters in each 
+project name(Leave the first and last letters as they are) and return the projects as an array.
+For eg:-String projects[]={“BCMIS”,”DMCIK”,”PSTIM”,”VCIST”};
+Output:
+BIMCS
+DICMK
+PITSM
+VSICT
+
+20. develop an appn to fin
+
+
+21.Develop an appn to perform banking transactions for a customer
+-create  a class account with the below properties: accNo, name balance, branch
+-ad da constructor to initialize an account object for a customer
+-add business method to perform deposit operation
+-add business method to perform withdraw operation
+-add business method to perform money transfer operation
+-add business method to check the balance in the account
+NOTE: business method (or)operational method
+
+
+22. 2. Develop an application to perform the following operation:
+ 
+A) create a class bike with properties:licences no., name,model price,owner
+B) add a constructor with no arguments
+C) add setter methods for all properties
+D) add getter methods for all fields
+E) add a method to return all bike properties as a string 
+F) create a Main Class,in which,create bike object,set properties 
+by calling setter methods,and print bike details using getter methods.
+
+23. develop an appn to perform banking transactions for a customer and should be performed in a dynamic way:
+----welcome to ABC bank----
+1. create account
+2.view account
+3.deposit amount
+4.withdraw amount
+5.transfer amount
+6.check balance
+7.exit
+
+24.(appn to make use of static, non-static, constructors)
+ Assume that as a developer you need to develop an appn for ABC bank to provide bank accnt for their customers.
+-each account should have the details like:accNo, holdername, amount, ageOfHolder, rateOfInterest. bankName, accountStatus
+-create a business method that can generate N no. of accnt objects and return as array, based on request for N accounts.
+
+points to remember::
+1.every account will have same bankName
+2.rateOfInterest for each account is based on age of account holder.
+-16>age<25::2 percent ROI
+-25>age<50::3 percent ROI
+-age>50   ::4 percent ROI
+
+25. Develop an appn for a company called Ford and itwants to produces bikes 
+ 
+
+
+
+
+26.create a Card class with properties cardNum, cardType, cardName, cardExpiryDate
+//add constructor
+//add setters and getters
+
+27.create a Card class with properties creditLimit, rewardPoints, cardHolderName, purchases[], billingDays
+
+//add constructor
+//add setters and getters
+
+//add BM for purchases and creditLimit
+//add BM for displaying available creditLimit
+//add BM for updating rewardPoints on every purchase
+//add BM for updating rewardPoints on claiming
